@@ -1,0 +1,93 @@
+{
+  "citas": [
+    {
+      "id": 1,
+      "fecha": "17-10",
+      "hora": "10:30",
+      "duracion": 30,
+      "estado": "Pendiente",
+      "motivo_consulta": "Chequeo anual",
+      "paciente_dni": "12345678",
+      "medico_id": 1
+    },
+    {
+      "id": 2,
+      "fecha": "2024-11-16",
+      "hora": "11:00",
+      "duracion": 30,
+      "estado": "Pendiente",
+      "motivo_consulta": "Consulta de control",
+      "paciente_dni": "12345678",
+      "medico_id": 1
+    },
+    {
+      "id": 3,
+      "fecha": "17-10",
+      "hora": "10:00",
+      "duracion": 30,
+      "estado": "Pendiente",
+      "motivo_consulta": "Chequeo anual",
+      "paciente_dni": "12345678",
+      "medico_id": 1
+    }
+  ],
+  "pacientes": [
+    {
+      "id": 1,
+      "nombre": "luciana",
+      "apellido": "carmona",
+      "dni": "12345678",
+      "gmail": "luciana@gmail.com",
+      "telefono": "123456789",
+      "domicilio": "lanin 123"
+    },
+    {
+      "id": 2,
+      "nombre": "Ana",
+      "apellido": "Gómez",
+      "dni": "87654321",
+      "gmail": "ana@gmail.com",
+      "telefono": "987654321",
+      "domicilio": "Calle Ejemplo 456"
+    }
+  ],
+  "medicos": [
+    {
+      "id": 1,
+      "nombre": "Dr. Cristhian",
+      "apellido": "Cantero",
+      "especialidad": "alergista",
+      "telefono": "12131415",
+      "correo": "cristhian@medico.com",
+      "disponibilidad": [
+        "08:00-12:00",
+        "14:00-18:00"
+      ]
+    },
+    {
+      "nombre": "Dr. bruno",
+      "apellido": "pospos",
+      "especialidad": "alergia",
+      "telefono": "12131415",
+      "correo": "bruno@medico.com",
+      "disponibilidad": [
+        "08:00-12:00"
+      ]
+    }
+  ],
+  "consultorios": [
+    {
+      "id": 1,
+      "nombre": "Consultorio Central",
+      "direccion": "lanin 2020",
+      "telefono": "234556",
+      "descripcion": "Consultorio general con atencion"
+    },
+    {
+      "nombre": "Consultorio local",
+      "direccion": "lanin 2022",
+      "telefono": "234656",
+      "descripcion": "Consultorio local con atencion"
+    }
+  ]
+}
